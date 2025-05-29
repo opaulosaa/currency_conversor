@@ -28,4 +28,4 @@ while True:
 
     del data[base]
     for ticker, value in data.items():
-        print(f"{ticker}: {value}")
+        print(f"{ticker}: {value:.2f}")
